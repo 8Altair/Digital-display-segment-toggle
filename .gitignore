@@ -1,0 +1,52 @@
+# ============================================
+# STM32CubeIDE + CLion C Project .gitignore
+# ============================================
+
+# --- Build output folders ---
+Debug/
+Release/
+build/
+out/
+
+# --- Object and intermediate files ---
+*.o
+*.obj
+*.d
+*.lst
+*.map
+*.axf
+*.elf
+*.bin
+*.hex
+
+# --- Backup / temporary files ---
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+
+# --- IDE-specific ---
+# Eclipse / STM32CubeIDE
+.settings/
+.metadata/
+.loadpath
+*.launch
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python virtualenvs or tools (if used) ---
+venv/
+__pycache__/
+
+# --- Miscellaneous ---
+*.user
+*.dep
+*.tags
